@@ -1,40 +1,74 @@
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-
-}
-.home{
-     display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: center;
-
-
-}
-.input{
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-    border: 1px solid gray;
-}
-.form{
-     display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-
-}
-
-.form-container{
-    margin-top: 30px;
-}
-
-button{
-    background-color: black;
+.container{
     color: white;
-    border-radius: 5px;
+    height: 100vh;
+    display: flex;
+   
+    flex-direction: column;
+     overflow-x: hidden;
+}
+.nav{
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+.button{
+    background-color: rgb(46, 192, 46);
+    height: 2rem;
+    width: 5rem;
+  border-radius: 8px;
+  color: white;
+}
+.center-body{
+    display: flex;
+    color: black;
+    height: 84%;
+    width: 100%;
+}
+.logo-name{
+   font-style: italic;
+}
+.side-bar{
+background-color: rgb(242, 244, 238);
+width: 5rem;
+height: 100%;
+}
+.side-bar:hover, .sidebar{
+    display: block;
+}
+.sidebar{
+    display: flex;
+flex-direction: column;
+gap: 5px;
+
+}
+
+.side-bar:hover{
+    display: block;
+}
+
+.up{
+    color: red;
+}
+
+.sidenav{
+    display: flex;
+    flex-direction: column;
+}
+/* .footer{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+    padding: 3px;
+} */
+.map-card{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    overflow: hidden;
+
 }

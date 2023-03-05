@@ -32,10 +32,10 @@ const Login = (props) => {
       localStorage.setItem("status", true)
       setErrorMsz('')
       const { history } = props
-      history.replace("/")
+      history.replace("/maps")
     } else {
       setErrorMsz(data.msg)
-      // setErrorMsz(true)
+    
     }
   }
   const getId = localStorage.getItem("id")

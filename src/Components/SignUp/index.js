@@ -34,9 +34,7 @@ const SignUp = (props) => {
 
     if (response.ok === true) {
       history.push('/login')
-      // if (response.status === 200) {
-       
-      // }
+
     }
     else {
       setErrMessage('User Not register')
